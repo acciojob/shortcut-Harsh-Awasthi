@@ -1,5 +1,10 @@
 function shortcut(s1, s2) {
-  // your code here
+    let ans="";
+    if(s1.trim()=="" || s2.trim()==" "){
+        return "";
+    }
+    ans=s1.trim().charAt(0)+s2.trim().charAt(0);
+    return ans;
 }
 
 // Do not change the code below.
